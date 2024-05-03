@@ -3,7 +3,7 @@
     <h1 class="welcome-text">Bienvenido a FoodStockOS</h1>
     <div id="app">
     <img class="centered-image" src="../assets/inventariores.jpg" alt="Inventario">
-      <Button :label="$t('getStarted')" class="p-button-raised p-button-rounded p-button-success get-started-button"></Button>
+      <Button @click="goToPage" :label="$t('getStarted')" class="p-button-raised p-button-rounded p-button-success get-started-button"></Button>
     </div>
   </div>
 </template>
@@ -15,6 +15,11 @@ export default {
   name: 'HomePage',
   components: {
     Button
+  },
+  methods: {
+    goToPage(){
+      window.location.href = 'https://chefstock-frontend.web.app/';
+    }
   }
 }
 </script>
