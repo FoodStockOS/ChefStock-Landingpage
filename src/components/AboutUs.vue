@@ -13,12 +13,8 @@
       <h2>José Daniel Mario Calderón Huamán</h2>
     </div>
     <div class="member">
-      <img src="./path-to-image4.jpg" alt="Miembro 4">
-      <h2>Nombre Completo 4</h2>
-    </div>
-    <div class="member">
-      <img src="./path-to-image5.jpg" alt="Miembro 5">
-      <h2>Nombre Completo 5</h2>
+      <img class="centered-image" src="https://i.ibb.co/BGJhHVC/vittorio.png" alt="Vittorio">
+      <h2>Vittorio Marcelo Eduardo Espinoza</h2>
     </div>
   </div>
 </template>
