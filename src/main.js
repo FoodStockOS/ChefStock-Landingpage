@@ -23,6 +23,8 @@ import CardStyle from "primevue/card/style/cardstyle.esm.js";
 import Button from "primevue/button";
 import en from './locales/en.json';
 import es from './locales/es.json';
+import Login from "@/components/Login.vue";
+import Signup from "@/components/Signup.vue";
 
 
 
@@ -31,7 +33,9 @@ const routes = [
     { path: '/homepage', component: HomePage },
     { path: '/chefstock', component: ChefStock },
     { path: '/plans', component: Plans },
-    { path: '/aboutus', component: AboutUs }
+    { path: '/aboutus', component: AboutUs },
+    { path: '/login', component: Login },
+    { path: '/signup', component: Signup },
 ]
 
 const router = createRouter({
