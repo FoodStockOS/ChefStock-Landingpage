@@ -64,11 +64,11 @@ body {
   background-color: #F4F0DF;
   color: #494847;
 }
-header {
+.header {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: #f8f9fa;
+  background-color: #C8B08F; /* Beige */
 }
 .main-content {
   text-align: left;
@@ -110,6 +110,7 @@ button {
   width: 100%;
   display: flex;
   justify-content: center;
+  background-color: #C8B08F; /* Beige */
 }
 .right {
   position: absolute;

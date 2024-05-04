@@ -52,15 +52,27 @@ body {
   color: black;
 }
 .plan {
-  border: 1px solid black;
+  border: 1px solid #ccc;
+  border-radius: 10px;
   padding: 20px;
   width: 30%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+.plan:hover {
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  transform: scale(1.03);
 }
 .price {
   font-size: larger;
   margin-bottom: 20px;
+  color: #007bff;
+  font-weight: bold;
 }
 ul {
   margin-top: 20px;
+}
+ul li {
+  line-height: 1.6;
 }
 </style>

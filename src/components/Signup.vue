@@ -38,8 +38,34 @@ export default {
   width: 300px;
   margin: auto;
   padding: 20px;
-  border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #f8f9fa;
+}
+.container h2 {
+  text-align: center;
+  color: #007bff;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.container form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.container form button:hover {
+  background-color: #0056b3;
 }
 </style>
