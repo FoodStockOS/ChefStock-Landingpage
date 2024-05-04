@@ -26,7 +26,7 @@ export default {
   },
   methods: {
     goToPage() {
-      window.location.href = 'https://chefstock-frontend.web.app/';
+      window.location.href = 'https://front-end-chefstock.web.app/';
     }
   }
 }
